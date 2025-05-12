@@ -37,12 +37,12 @@ panic-probe = { version = "1.0.0", features = ["print-defmt"] }
 # https://embassy.dev/book/#_cargo_toml_2
 # git ls-remote https://github.com/embassy-rs/embassy.git HEAD
 [patch.crates-io]
-embassy-time = { git = "https://github.com/embassy-rs/embassy", rev = "ca5ebe859a40af38a889553334afbcc22cf1aba7" }
-embassy-executor = { git = "https://github.com/embassy-rs/embassy", rev = "ca5ebe859a40af38a889553334afbcc22cf1aba7" }
-embassy-stm32 = { git = "https://github.com/embassy-rs/embassy", rev = "ca5ebe859a40af38a889553334afbcc22cf1aba7" }
-# embassy-sync = { git = "https://github.com/embassy-rs/embassy", rev = "ca5ebe859a40af38a889553334afbcc22cf1aba7" }
-# embassy-usb = { git = "https://github.com/embassy-rs/embassy", rev = "ca5ebe859a40af38a889553334afbcc22cf1aba7" }
-# embassy-futures = { git = "https://github.com/embassy-rs/embassy", rev = "ca5ebe859a40af38a889553334afbcc22cf1aba7" }
+embassy-time = { git = "https://github.com/embassy-rs/embassy", rev = "f9f20ae2174cb26d0f8926207d179041cfec2d2e" }
+embassy-executor = { git = "https://github.com/embassy-rs/embassy", rev = "f9f20ae2174cb26d0f8926207d179041cfec2d2e" }
+embassy-stm32 = { git = "https://github.com/embassy-rs/embassy", rev = "f9f20ae2174cb26d0f8926207d179041cfec2d2e" }
+# embassy-sync = { git = "https://github.com/embassy-rs/embassy", rev = "f9f20ae2174cb26d0f8926207d179041cfec2d2e" }
+# embassy-usb = { git = "https://github.com/embassy-rs/embassy", rev = "f9f20ae2174cb26d0f8926207d179041cfec2d2e" }
+# embassy-futures = { git = "https://github.com/embassy-rs/embassy", rev = "f9f20ae2174cb26d0f8926207d179041cfec2d2e" }
 
 [profile.dev]
 opt-level = 1               # default = 0
